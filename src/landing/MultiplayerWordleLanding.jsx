@@ -56,8 +56,17 @@ export default function MultiplayerWordleLanding() {
         />
         <link
           rel="canonical"
-          href="https://wisdom-githb.github.io/wuzzle-games/multiplayer-wuzzle/"
+          href="https://wuzzlegames.com/multiplayer-wuzzle"
         />
+        <meta property="og:title" content="Multiplayer Wordle | Wuzzle Games" />
+        <meta property="og:description" content="Play multiplayer Wordle-style battles in Wuzzle Games. Host or join a room, share a code with friends, and race through multi-board puzzles." />
+        <meta property="og:url" content="https://wuzzlegames.com/multiplayer-wuzzle" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://wuzzlegames.com/og-wuzzle-games.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Multiplayer Wordle | Wuzzle Games" />
+        <meta name="twitter:description" content="Play multiplayer Wordle-style battles in Wuzzle Games. Host or join a room, share a code with friends, and race through multi-board puzzles." />
+        <meta name="twitter:image" content="https://wuzzlegames.com/og-wuzzle-games.png" />
         <script type="application/ld+json">
           {JSON.stringify(faqJsonLd)}
         </script>

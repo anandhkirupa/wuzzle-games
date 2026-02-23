@@ -162,11 +162,21 @@ export default function Home({
   return (
     <>
       <Helmet>
-        <title>Wuzzle Games</title>
+        <title>Wuzzle Games – Free Wordle Alternative | Multiplayer Word Puzzle</title>
         <meta
           name="description"
-          content="Wuzzle Games is a Wordle alternative with multi-board daily puzzles, marathon and speedrun modes, and Multiplayer Mode battles with friends."
+          content="Play Wuzzle Games, a free Wordle-style word puzzle with multiplayer battles, speedrun mode, and daily challenges. No signup required."
         />
+        <link rel="canonical" href="https://wuzzlegames.com/" />
+        <meta property="og:title" content="Wuzzle Games – Free Wordle Alternative | Multiplayer Word Puzzle" />
+        <meta property="og:description" content="Play Wuzzle Games, a free Wordle-style word puzzle with multiplayer battles, speedrun mode, and daily challenges. No signup required." />
+        <meta property="og:url" content="https://wuzzlegames.com/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://wuzzlegames.com/og-wuzzle-games.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Wuzzle Games – Free Wordle Alternative | Multiplayer Word Puzzle" />
+        <meta name="twitter:description" content="Play Wuzzle Games, a free Wordle-style word puzzle with multiplayer battles, speedrun mode, and daily challenges. No signup required." />
+        <meta name="twitter:image" content="https://wuzzlegames.com/og-wuzzle-games.png" />
       </Helmet>
       <div className="homeRoot">
       <div className="homeInner">

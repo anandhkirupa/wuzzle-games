@@ -48,8 +48,17 @@ export default function WordleMarathonLanding() {
         />
         <link
           rel="canonical"
-          href="https://wisdom-githb.github.io/wuzzle-games/wuzzle-marathon/"
+          href="https://wuzzlegames.com/wuzzle-marathon"
         />
+        <meta property="og:title" content="Wordle Marathon | Wuzzle Games" />
+        <meta property="og:description" content="Play Wordle marathon mode in Wuzzle Games. Go beyond one daily puzzle with multi-stage, multi-board runs—plus optional speedrun timing." />
+        <meta property="og:url" content="https://wuzzlegames.com/wuzzle-marathon" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://wuzzlegames.com/og-wuzzle-games.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Wordle Marathon | Wuzzle Games" />
+        <meta name="twitter:description" content="Play Wordle marathon mode in Wuzzle Games. Go beyond one daily puzzle with multi-stage, multi-board runs—plus optional speedrun timing." />
+        <meta name="twitter:image" content="https://wuzzlegames.com/og-wuzzle-games.png" />
         <script type="application/ld+json">{JSON.stringify(faqJsonLd)}</script>
       </Helmet>
 

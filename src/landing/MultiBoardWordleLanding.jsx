@@ -47,8 +47,17 @@ export default function MultiBoardWordleLanding() {
         />
         <link
           rel="canonical"
-          href="https://wisdom-githb.github.io/wuzzle-games/multi-board-wuzzle/"
+          href="https://wuzzlegames.com/multi-board-wuzzle"
         />
+        <meta property="og:title" content="Multi-Board Wordle | Wuzzle Games" />
+        <meta property="og:description" content="Play multi-board Wordle-style puzzles in Wuzzle Games. Solve multiple boards at once with shared guesses—daily puzzles, marathon, and speedrun options." />
+        <meta property="og:url" content="https://wuzzlegames.com/multi-board-wuzzle" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://wuzzlegames.com/og-wuzzle-games.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Multi-Board Wordle | Wuzzle Games" />
+        <meta name="twitter:description" content="Play multi-board Wordle-style puzzles in Wuzzle Games. Solve multiple boards at once with shared guesses—daily puzzles, marathon, and speedrun options." />
+        <meta name="twitter:image" content="https://wuzzlegames.com/og-wuzzle-games.png" />
         <script type="application/ld+json">{JSON.stringify(faqJsonLd)}</script>
       </Helmet>
 

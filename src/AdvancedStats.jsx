@@ -139,6 +139,11 @@ export default function AdvancedStats() {
       <Helmet>
         <title>{pageTitle}</title>
         <meta name="description" content={`Your ${getModeDisplayName()} statistics and performance on Wuzzle Games.`} />
+        <link rel="canonical" href="https://wuzzlegames.com/stats" />
+        <meta property="og:title" content={pageTitle} />
+        <meta property="og:description" content={`Your ${getModeDisplayName()} statistics and performance on Wuzzle Games.`} />
+        <meta property="og:url" content="https://wuzzlegames.com/stats" />
+        <meta property="og:type" content="website" />
       </Helmet>
       <div className="stats-page">
         <SiteHeader />

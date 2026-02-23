@@ -48,8 +48,17 @@ export default function WordleSpeedrunLanding() {
         />
         <link
           rel="canonical"
-          href="https://wisdom-githb.github.io/wuzzle-games/wuzzle-speedrun/"
+          href="https://wuzzlegames.com/wuzzle-speedrun"
         />
+        <meta property="og:title" content="Wordle Speedrun | Wuzzle Games" />
+        <meta property="og:description" content="Play Wordle speedrun mode in Wuzzle Games. Race the clock on daily and marathon puzzles—including multi-board speedruns—free in your browser." />
+        <meta property="og:url" content="https://wuzzlegames.com/wuzzle-speedrun" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://wuzzlegames.com/og-wuzzle-games.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Wordle Speedrun | Wuzzle Games" />
+        <meta name="twitter:description" content="Play Wordle speedrun mode in Wuzzle Games. Race the clock on daily and marathon puzzles—including multi-board speedruns—free in your browser." />
+        <meta name="twitter:image" content="https://wuzzlegames.com/og-wuzzle-games.png" />
         <script type="application/ld+json">{JSON.stringify(faqJsonLd)}</script>
       </Helmet>
 

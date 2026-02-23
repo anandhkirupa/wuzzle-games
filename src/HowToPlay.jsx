@@ -188,6 +188,12 @@ export default function HowToPlay() {
           name="description"
           content="Learn how to play Wuzzle Games with examples of single board, multi-board, keyboard colors, and marathon mode progression."
         />
+        <link rel="canonical" href="https://wuzzlegames.com/how-to-play" />
+        <meta property="og:title" content="How to Play – Wuzzle Games Guide & Tutorial" />
+        <meta property="og:description" content="Learn how to play Wuzzle Games with examples of single board, multi-board, keyboard colors, and marathon mode progression." />
+        <meta property="og:url" content="https://wuzzlegames.com/how-to-play" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://wuzzlegames.com/og-wuzzle-games.png" />
       </Helmet>
 
       <div className="howToPlayInner">

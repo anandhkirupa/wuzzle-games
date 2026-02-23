@@ -15,6 +15,12 @@ export default function Faq() {
           name="description"
           content="Learn what Wuzzle Games is, how multi-board daily puzzles, marathon and speedrun modes, and Multiplayer Mode battles with friends work."
         />
+        <link rel="canonical" href="https://wuzzlegames.com/faq" />
+        <meta property="og:title" content="FAQ – Wuzzle Games" />
+        <meta property="og:description" content="Learn what Wuzzle Games is, how multi-board daily puzzles, marathon and speedrun modes, and Multiplayer Mode battles with friends work." />
+        <meta property="og:url" content="https://wuzzlegames.com/faq" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://wuzzlegames.com/og-wuzzle-games.png" />
       </Helmet>
 
       <div className="faqInner">

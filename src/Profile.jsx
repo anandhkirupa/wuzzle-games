@@ -297,6 +297,11 @@ export default function Profile() {
           name="description"
           content="Manage your Wuzzle Games profile, username, account security and linked Google account so your Wordle-style progress and Multiplayer Mode games stay in sync."
         />
+        <link rel="canonical" href="https://wuzzlegames.com/profile" />
+        <meta property="og:title" content="Profile & Friends – Wuzzle Games" />
+        <meta property="og:description" content="Manage your Wuzzle Games profile, username, account security and linked Google account." />
+        <meta property="og:url" content="https://wuzzlegames.com/profile" />
+        <meta property="og:type" content="website" />
       </Helmet>
       <div className="profileRoot">
       <div className="profileContainer">

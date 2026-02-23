@@ -33,6 +33,12 @@ export default function Leaderboard() {
           name="description"
           content="View the Wuzzle Games speedrun and Multiplayer Mode leaderboard, compare your multi-board and marathon times, and see how you rank against other players."
         />
+        <link rel="canonical" href="https://wuzzlegames.com/leaderboard" />
+        <meta property="og:title" content="Multiplayer & Speedrun Leaderboard – Wuzzle Games" />
+        <meta property="og:description" content="View the Wuzzle Games speedrun and Multiplayer Mode leaderboard, compare your multi-board and marathon times, and see how you rank against other players." />
+        <meta property="og:url" content="https://wuzzlegames.com/leaderboard" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://wuzzlegames.com/og-wuzzle-games.png" />
       </Helmet>
       <div className="leaderboardRoot">
       <div className="leaderboardInner">
